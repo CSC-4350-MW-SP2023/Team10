@@ -38,7 +38,7 @@ header {
 
 }
 
-button {
+.lgnbut {
     padding: 9px 25px;
     background-color: rgba(136,244,134,1);
     background-repeat: no-repeat;
@@ -49,8 +49,8 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
-    background-color: rgba(136,244,134,0.5);
+.lgnbut:hover {
+    background-color: rgba(136,244,134,0.8);
 }
 /*
 .nav__links {
