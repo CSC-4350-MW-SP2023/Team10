@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.page-head {
+    width: 100%;
+    height: 60px;
+    background-color: #A2A2A2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 2%;
+    margin-bottom: 10px;
+}
+
+.logo {
+    cursor: pointer;
+    height: 42px;
+    width: 42px;
+    transition: 0.3s ease 0s;
+    background-color: #A2A2A2;
+}
+
+.logo:hover {
+
+}
+
+.lgnbut {
+    padding: 9px 25px;
+    background-color: rgba(136,244,134,1);
+    background-repeat: no-repeat;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.lgnbut:hover {
+    background-color: rgba(136,244,134,0.8);
+}
+
+.bck {
+    margin: 0 5px;
+    padding: 2px 10px;
+    background-color: rgba(136,244,134,1);
+    color: black;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.bck:hover {
+    background-color: rgba(136,244,134,0.7);
+}
+.rsrv-pnl {
+    height: 200px;
+    width: 40%;
+    width-min: 200px;
+    position: absolute;
+    right: 10%;
+    background-color: #B8B8B8;
+}
+.top {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.itmimg {
+    position: absolute;
+    left: 5%;
+    width: 40%;
+}
+
+.rsrv {
+    font-family: 'Kanit', sans-serif;
+    font-weight:700;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #00BD13;
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+}
+
+.qlabel {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    position: absolute;
+    left: 10%;
+}
+
+.quantity {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: right;
+    left: 10%;
+    top: 56px;
+    width: 56px;
+    height: 32px;
+    border-radius: 8px;
+}
+.btm{
+    padding: 5px 16px;
+}
+.name, .price, .exp, .desc{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 42px
+}
+
+.dtext {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    padding: 5px 16px;
+    width: 100%;
+    height: 200px;
+    background-color: #B8B8B8;
+}
