@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>FoodSaver+</title>
-    <link rel="stylesheet" href="stsiup-style.css">
+    <link rel="stylesheet" href="browse-style.css">
 </head>
 <body>
     <header class="page-head">
@@ -12,12 +12,11 @@
     </header>
     <div class="sidebar">
         <ul>
+            <li class="filter-title">Filters</li>
             <li class="filter-text">Price:</li>
-            <li><input type="number" name="minprice" placeholder="Min."></li>
-            <li><input type="number" name="maxprice" placeholder="Max."></li>
+            <li><input type="number" class="priceinput" name="mininput" placeholder="Min."><input type="number" class="priceinput" name="maxprice" placeholder="Max."></li>
             <li class="filter-text">Expires after:</li>
-            <li><input type="number" name="month" placeholder="Month"></li>
-            <li><input type="number" name="day" placeholder="Day"></li>
+            <li><input type="number" class="dateinput" name="month" placeholder="Month"><input type="number" class="dateinput" name="day" placeholder="Day"></li>
         </ul>
     </div>
     <div class="browse-body">
