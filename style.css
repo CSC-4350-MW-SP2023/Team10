@@ -15,7 +15,7 @@ li, a, button {
     text-decoration: none;
 }
 
-header {
+.page-head {
     margin: -10px;
     width: 100%+20px;
     height: 60px;
